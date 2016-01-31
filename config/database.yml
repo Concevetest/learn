@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: SQL-ASCII
+  database: conceve-app_dev
+  pool: 5
+  username: postgres
+  password: password
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: SQL-ASCII
+  database: conceve-app_test
+  pool: 5
+  username: postgres
+  password: password
+  host: localhost
